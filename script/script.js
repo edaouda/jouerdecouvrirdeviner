@@ -77,20 +77,24 @@ function showInfoImage() {
 	let infoImage = infoImages[indexCurrentInfoImage];
 	for (let key in infoImage) {
 		if (infoImage.hasOwnProperty(key) && infoImage[key] !== "")
-			infoImage[key][0] = infoImage[key][0].toUpperCase();
+			infoImage[key] = infoImage[key][0].toUpperCase() + infoImage[key].slice(1, infoImage[key].length);
 	}
 	
 	let nomAuteur_prenomAuteur = "";
 	if (infoImage.nomAuteur !== "" && infoImage.prenomAuteur !== "")
 		nomAuteur_prenomAuteur = infoImage.nomAuteur + ", " + infoImage.prenomAuteur + ".";
-	else if (infoImage.nomAuteur !== "") nomAuteur_prenomAuteur = infoImage.prenomAuteur + ".";
-	else if (infoImage.prenomAuteur !== "") nomAuteur_prenomAuteur = infoImage.nomAuteur + ".";
+	else if (infoImage.nomAuteur !== "") nomAuteur_prenomAuteur = infoImage.nomAuteur + ".";
+	else if (infoImage.prenomAuteur !== "") nomAuteur_prenomAuteur = infoImage.prenomAuteur + ".";
+	
 	let editeurSite_datePublication = "";
 	if (infoImage.editeurSite !== "" && infoImage.datePublication !== "")
 		editeurSite_datePublication = infoImage.editeurSite + ", " + infoImage.datePublication + ".";
-	else if (infoImage.editeurSite !== "") editeurSite_datePublication = infoImage.datePublication + ".";
-	else if (infoImage.datePublication !== "") editeurSite_datePublication = infoImage.editeurSite + ".";
-	if (infoImage.titre !== "") infoImage.titre += ".";
+	else if (infoImage.editeurSite !== "") editeurSite_datePublication = infoImage.editeurSite + ".";
+	else if (infoImage.datePublication !== "") editeurSite_datePublication = infoImage.datePublication + ".";
+	
+	if (infoImage.titre === "") infoImage.titre = infoImage.theme + ".";
+	else infoImage.titre += ".";
+	
 	if (infoImage.dateAcces !== "") infoImage.dateAcces += "."; 
 	if (infoImage.nomSite !== "") infoImage.nomSite += ".";
 	
