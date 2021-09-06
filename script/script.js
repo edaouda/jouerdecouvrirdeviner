@@ -6,9 +6,9 @@ const searchTerm = document.getElementById("search-term");
 const searchBtn = document.getElementById("search");
 const cases = document.querySelectorAll(".case");
 
-var indexCurrentInfoImage = parseInt(localStorage.getItem("indexCurrentInfoImage"));
-if (indexCurrentInfoImage === null)
-	indexCurrentInfoImage = 0;
+var indexCurrentInfoImage = localStorage.getItem("indexCurrentInfoImage");
+if (indexCurrentInfoImage === null) indexCurrentInfoImage = 0;
+else indexCurrentInfoImage = parseInt(indexCurrentInfoImage);
 majInfoImage();
 
 // ajoute l'evenement click aux cases
