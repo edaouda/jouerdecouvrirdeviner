@@ -34,8 +34,8 @@ img {
   grid-template-rows: repeat(3, 1fr);
   background-position: center center;
   background-size: 100%;
-  height: 80vh;
-  width: 80vw;
+  height: 80vmin;
+  width: 80vmin;
 }
 
 .case {
