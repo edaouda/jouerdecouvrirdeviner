@@ -36,6 +36,8 @@ img {
   background-size: 100%;
   height: 80vmin;
   width: 80vmin;
+  margin-left: auto;
+    margin-right: auto
 }
 
 .case {
@@ -82,6 +84,7 @@ header input {
     border-radius: 3px;
     font-family: inherit;
     padding: 0.5rem 1rem;
+	width: 20vw;
 }
 
 header button {
@@ -132,4 +135,9 @@ header button {
 
 .meal-info h1 {
     text-align: center;
+}
+
+button {
+	height: 2rem;
+	width: 5rem;
 }
