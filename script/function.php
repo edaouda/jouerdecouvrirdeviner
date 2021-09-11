@@ -1,7 +1,7 @@
 <?php
 function getInfoImages() {
 	// TODO: optmisation fclose($handle); répéeter 2 fois
-	$handle = fopen("./data/infoImage.csv", "r");
+	$handle = fopen("./data/infoImages - Feuille 1.csv", "r");
 	
 	if ($handle === FALSE) {
 		return null;
