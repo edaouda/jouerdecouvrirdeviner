@@ -19,15 +19,15 @@
 			<h2>Image n°<b id="numImage"></b></h2>
 		</header>
         <div class="grille" >
-            <div class="case cache"><p class="numCase">1</p></div>
-            <div class="case cache"><p class="numCase">2</p></div>
-            <div class="case cache"><p class="numCase">3</p></div>
-            <div class="case cache"><p class="numCase">4</p></div>
-            <div class="case cache"><p class="numCase">5</p></div>
-            <div class="case cache"><p class="numCase">6</p></div>
-            <div class="case cache"><p class="numCase">7</p></div>
-            <div class="case cache"><p class="numCase">8</p></div>
-            <div class="case cache"><p class="numCase">9</p></div>
+            <div class="case cache">1</div>
+            <div class="case cache">2</div>
+            <div class="case cache">3</div>
+            <div class="case cache">4</div>
+            <div class="case cache">5</div>
+            <div class="case cache">6</div>
+            <div class="case cache">7</div>
+            <div class="case cache">8</div>
+            <div class="case cache">9</div>
         </div>
         <div class="options">
 			<div class="btnPasserEtape">
