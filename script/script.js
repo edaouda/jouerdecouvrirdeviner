@@ -80,12 +80,6 @@ function showInfoImage() {
 			infoImage[key] = infoImage[key][0].toUpperCase() + infoImage[key].slice(1, infoImage[key].length);
 	}
 	
-	let nomAuteur_prenomAuteur = "";
-	if (infoImage.nomAuteur !== "" && infoImage.prenomAuteur !== "")
-		nomAuteur_prenomAuteur = infoImage.nomAuteur + ", " + infoImage.prenomAuteur + ".";
-	else if (infoImage.nomAuteur !== "") nomAuteur_prenomAuteur = infoImage.nomAuteur + ".";
-	else if (infoImage.prenomAuteur !== "") nomAuteur_prenomAuteur = infoImage.prenomAuteur + ".";
-	
 	let editeurSite_datePublication = "";
 	if (infoImage.editeurSite !== "" && infoImage.datePublication !== "")
 		editeurSite_datePublication = infoImage.editeurSite + ", " + infoImage.datePublication + ".";
@@ -95,6 +89,7 @@ function showInfoImage() {
 	if (infoImage.titre === "") infoImage.titre = infoImage.theme + ".";
 	else infoImage.titre += ".";
 	
+	if (infoImage.auteur !== "") infoImage.auteur += "."; 
 	if (infoImage.dateAcces !== "") infoImage.dateAcces += "."; 
 	if (infoImage.nomSite !== "") infoImage.nomSite += ".";
 	
@@ -104,9 +99,7 @@ function showInfoImage() {
             src="./data/img/${infoImage.nomFichier}"
             alt="${infoImage.theme}"
         />
-        <p>
-        ${nomAuteur_prenomAuteur} <i>${infoImage.titre}</i> Image numérique. ${infoImage.nomSite} ${editeurSite_datePublication} Web. ${infoImage.dateAcces}
-        </p>
+        <p>${infoImage.auteur} <i>${infoImage.titre}</i> Image numérique. ${infoImage.nomSite} ${editeurSite_datePublication} Web. ${infoImage.dateAcces}</p>
         <h3>${infoImage.resume}</h3>
 		<h4>${indexCurrentInfoImage+1}</h4>
     `;
