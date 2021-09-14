@@ -80,18 +80,13 @@ function showInfoImage() {
 			infoImage[key] = infoImage[key][0].toUpperCase() + infoImage[key].slice(1, infoImage[key].length);
 	}
 	
-	let editeurSite_datePublication = "";
-	if (infoImage.editeurSite !== "" && infoImage.datePublication !== "")
-		editeurSite_datePublication = infoImage.editeurSite + ", " + infoImage.datePublication + ".";
-	else if (infoImage.editeurSite !== "") editeurSite_datePublication = infoImage.editeurSite + ".";
-	else if (infoImage.datePublication !== "") editeurSite_datePublication = infoImage.datePublication + ".";
-	
 	if (infoImage.titre === "") infoImage.titre = infoImage.theme + ".";
 	else infoImage.titre += ".";
 	
-	if (infoImage.auteur !== "") infoImage.auteur += "."; 
-	if (infoImage.dateAcces !== "") infoImage.dateAcces += "."; 
-	if (infoImage.nomSite !== "") infoImage.nomSite += ".";
+	if (infoImage.auteur !== "") infoImage.auteur += ".";
+	if (infoImage.dateAcces !== "") infoImage.dateAcces += ".";
+	if (infoImage.site !== "") infoImage.site += "."; 
+	if (infoImage.datePublication !== "") infoImage.datePublication += "."; 
 	
     new_infoImageEl.innerHTML = `
         <h1>${infoImage.theme.toUpperCase()}</h1>
@@ -99,7 +94,7 @@ function showInfoImage() {
             src="./data/img/${infoImage.nomFichier}"
             alt="${infoImage.theme}"
         />
-        <p>${infoImage.auteur} <i>${infoImage.titre}</i> Image numérique. ${infoImage.nomSite} ${editeurSite_datePublication} Web. ${infoImage.dateAcces}</p>
+        <p>${infoImage.auteur} <i>${infoImage.titre}</i> Image numérique. ${infoImage.site} ${infoImage.datePublication} Web. ${infoImage.dateAcces}</p>
         <h3>${infoImage.resume}</h3>
 		<h4>${indexCurrentInfoImage+1}</h4>
     `;
