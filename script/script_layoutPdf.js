@@ -40,7 +40,7 @@ function majInfoImage() {
 	}
 	if (infoImage.titre === "") infoImage.titre = infoImage.theme + ".";
 	else infoImage.titre += ".";
-	if (infoImage.auteur !== "") infoImage.auteur += "."; console.log(infoImage.auteur);
+	if (infoImage.auteur !== "") infoImage.auteur += ".";
 	if (infoImage.dateAcces !== "") infoImage.dateAcces += ".";
 	if (infoImage.site !== "") infoImage.site += "."; 
 	if (infoImage.datePublication !== "") infoImage.datePublication += "."; 
