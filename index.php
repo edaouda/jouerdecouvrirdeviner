@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css" />
 	<script src="./script/script.js" defer></script>
 	<?php
+        # get informations of images
 		require('./script/function.php');
 		
 		$infoImages = getInfoImages();
@@ -18,7 +19,7 @@
 		<header>
 			<h2>Image n°<b id="numImage"></b></h2>
 		</header>
-        <div class="grille" >
+        <div class="grille">
             <div class="case cache">1</div>
             <div class="case cache">2</div>
             <div class="case cache">3</div>

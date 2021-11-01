@@ -5,9 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jouer Decouvrir Deviner-Layout pdf</title>
     <link rel="stylesheet" href="./css/style_LayoutPdf.css" />
+	<!-- jquery use to adapt the image-->
 	<script src="./script/jquery-3.6.0.slim.min.js" defer></script>
-	<script src="./script/script_LayoutPdf.js" defer></script>
+	<script src="./script/script_layoutPdf.js" defer></script>
 	<?php
+		# get informations of images
 		require('./script/function.php');
 		
 		$infoImages = getInfoImages();
@@ -28,7 +30,7 @@
 	<main id="main"></main>
 	<footer>
 		<h4 id="date">23 SEPTEMBRE 2021, CAMPUS DAY</h4>
-		<h4 id="organisation">Association REMB REMA & Université d'Angers</h4>
+		<h4 id="organisations">Association REMB REMA & Université d'Angers</h4>
 	</footer>
 </body>
 </html>

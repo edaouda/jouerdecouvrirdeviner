@@ -1,2 +1,9 @@
 Jeu de devinette sur les années 70.
-Essayez de deviner 100 images.
+Essayez de deviner les informations de l'image derrière les cases vertes.
+Projet pour le campus day origanisé par l'université d'Angers
+On peut générer des flayers des images avec la page layoutPdf.php:
+	-changer d'image avec les bouttons invisibles en haut à droite
+	-imprimer avec l'option imprimer de votre navigateur
+
+association Réseau des Étudiants de Mayotte d'Angers
+contact: remb.rema@gmail.com
