@@ -55,7 +55,7 @@ img {
 }
 
 .precedent, .suivant {
-	background-color: var(--color-invisibleColor);
+  background-color: var(--color-invisibleColor);
   border: 10px solid transparent
 }
 
@@ -82,13 +82,13 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	padding: 0 20px 0 20px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
-#organisation {
+#organisations {
 	color: var(--color-lightGrey);
 }
 
