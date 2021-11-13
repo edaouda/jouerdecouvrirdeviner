@@ -4,6 +4,8 @@ Projet pour le campus day origanisé par l'université d'Angers
 On peut générer des flayers des images avec la page layoutPdf.php:
 	-changer d'image avec les bouttons invisibles en haut à droite
 	-imprimer avec l'option imprimer de votre navigateur
+Un site vous permet de tester le projet.
+Le lien du site est https://jdd.azurewebsites.net/.
 
-association Réseau des Étudiants de Mayotte d'Angers
+Association Réseau des Étudiants de Mayotte d'Angers
 contact: remb.rema@gmail.com
