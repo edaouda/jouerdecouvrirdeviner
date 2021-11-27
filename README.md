@@ -5,8 +5,8 @@ Projet pour le campus day origanisé par l'université d'Angers.
 
 ## Fonctionnalités
 On peut générer des flayers des images avec la page layoutPdf.php:<br />
->	changer d'image avec les bouttons invisibles en haut à droite<br />
->	imprimer avec l'option imprimer de votre navigateur
+&nbsp;	1. changer d'image avec les bouttons invisibles en haut à droite<br />
+>>2. imprimer avec l'option imprimer de votre navigateur
 
 ## Test
 Lien du site de test: [https://jdd.azurewebsites.net/](https://jdd.azurewebsites.net/).<br />
