@@ -36,6 +36,7 @@ img {
   width: 80vmin;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .case {
@@ -135,3 +136,8 @@ button {
     font-size: 4rem;
   }
 }
+
+div.case:nth-child(1) { border-top-left-radius: 10px; }
+div.case:nth-child(3) { border-top-right-radius: 10px; }
+div.case:nth-child(7) { border-bottom-left-radius: 10px; }
+div.case:nth-child(9) { border-bottom-right-radius: 10px; }
