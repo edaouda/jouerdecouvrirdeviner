@@ -9,7 +9,7 @@ On peut générer des flayers des images avec la page layoutPdf.php:
 &nbsp;&nbsp;&nbsp;&nbsp;2. imprimer avec l'option imprimer de votre navigateur
 
 ## Test
-Lien du site de test: [https://jdd.azurewebsites.net/](https://jdd.azurewebsites.net/).  
+Lien du site de test: [https://jdd.azurewebsites.net/](https://jdd.azurewebsites.net/)
 Lien des flayers: [https://jdd.azurewebsites.net/layoutpdf.php](https://jdd.azurewebsites.net/layoutpdf.php)
 
 ## Contact
