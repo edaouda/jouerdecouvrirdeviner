@@ -1,6 +1,8 @@
 ## Introduction
-Jeu de devinette sur les années 70.<br />
-<strong>But</strong>: Essayez de deviner les informations de l'image derrière les cases vertes.<br />
+Jeu de devinette sur les années 70.
+
+<strong>But</strong>: Deviner les informations de l'image derrière les cases vertes.
+
 Projet pour le campus day origanisé par l'université d'Angers.
 
 ## Fonctionnalités
