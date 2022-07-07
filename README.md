@@ -1,9 +1,7 @@
 ## Introduction
-Jeu de devinette sur les années 70.
-
-<strong>But</strong>: Deviner les informations de l'image derrière les cases vertes.
-
-Projet pour le campus day origanisé par l'université d'Angers.
+Jeu de devinette sur les années 70.  
+<strong>But</strong>: Deviner les informations de l'image derrière les cases vertes.  
+Projet pour le campus day origanisé par l'université d'Angers.  
 
 ## Fonctionnalités
 On peut générer des flayers des images avec la page layoutPdf.php:<br />
