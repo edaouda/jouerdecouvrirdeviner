@@ -14,4 +14,4 @@ Lien des flayers: [https://jdd.azurewebsites.net/layoutpdf.php](https://jdd.azur
 
 ## Contact
 Association REMB - Réseau des Étudiants de Mayotte d'Angers  
-contact: remb.rema@gmail.com
+mail: remb.rema@gmail.com
